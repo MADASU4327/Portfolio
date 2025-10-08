@@ -102,7 +102,7 @@ const About = () => {
               className="text-lg text-gray-300 leading-relaxed"
               variants={itemVariants}
             >
-              Master's student in Computer Science at the University of Central Missouri 
+              Master&apos;s student in Computer Science at the University of Central Missouri 
               (GPA 3.5). I build end-to-end web and cloud solutions using React, Node.js 
               and AWS with a focus on scalability and automation.
             </motion.p>
@@ -112,7 +112,7 @@ const About = () => {
               variants={itemVariants}
             >
               With hands-on experience in full-stack development and cloud architecture, 
-              I'm passionate about creating efficient, secure, and user-friendly applications 
+              I&apos;m passionate about creating efficient, secure, and user-friendly applications 
               that solve real-world problems.
             </motion.p>
 
@@ -132,7 +132,7 @@ const About = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-white">Education</p>
-                    <p className="text-sm text-gray-400">Master's in CS</p>
+                    <p className="text-sm text-gray-400">Master&apos;s in CS</p>
                   </div>
                 </div>
               </motion.div>

@@ -52,7 +52,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: 'Email Me',
-      description: 'Send me an email and I\'ll respond within 24 hours',
+      description: 'Send me an email and I&apos;ll respond within 24 hours',
       value: 'madasusaisandeep66@gmail.com',
       href: 'mailto:madasusaisandeep66@gmail.com',
       color: 'from-blue-400 to-indigo-600',
@@ -61,7 +61,7 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: 'Call Me',
-      description: 'Let\'s have a direct conversation about your project',
+      description: 'Let&apos;s have a direct conversation about your project',
       value: '+1 765-271-9979',
       href: 'tel:+17652719979',
       color: 'from-green-400 to-blue-500',
@@ -128,13 +128,13 @@ const ContactPage = () => {
             </Link>
             
             <h1 className="text-4xl lg:text-6xl font-poppins font-bold mb-6">
-              Let's Work <span className="gradient-text">Together</span>
+              Let&apos;s Work <span className="gradient-text">Together</span>
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full mb-6" />
             <p className="text-lg text-gray-300 max-w-3xl leading-relaxed">
-              I'm always excited to collaborate on innovative projects and help bring your ideas to life. 
+              I&apos;m always excited to collaborate on innovative projects and help bring your ideas to life. 
               Whether you need a full-stack web application, cloud solution, or technical consultation, 
-              let's discuss how we can work together to achieve your goals.
+              let&apos;s discuss how we can work together to achieve your goals.
             </p>
           </motion.div>
 
@@ -209,7 +209,7 @@ const ContactPage = () => {
               <div className="glass rounded-3xl p-8">
                 <h2 className="text-2xl font-bold text-white mb-6">Send Me a Message</h2>
                 <p className="text-gray-300 mb-8">
-                  Fill out the form below with details about your project, and I'll get back to you within 24 hours.
+                  Fill out the form below with details about your project, and I&apos;ll get back to you within 24 hours.
                 </p>
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -262,7 +262,7 @@ const ContactPage = () => {
                         onChange={handleInputChange}
                         required
                         className="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl text-white placeholder-gray-400 focus:border-primary-400 focus:ring-2 focus:ring-primary-400/20 focus:outline-none transition-all duration-300"
-                        placeholder="What's this about?"
+                        placeholder="What&apos;s this about?"
                         whileFocus={{ scale: 1.02 }}
                       />
                     </div>
@@ -334,7 +334,7 @@ const ContactPage = () => {
                       className="flex items-center space-x-2 text-green-400 bg-green-400/10 p-4 rounded-xl border border-green-400/30"
                     >
                       <CheckCircle size={20} />
-                      <span>Message sent successfully! I'll get back to you within 24 hours.</span>
+                      <span>Message sent successfully! I&apos;ll get back to you within 24 hours.</span>
                     </motion.div>
                   )}
 
@@ -361,7 +361,7 @@ const ContactPage = () => {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="glass rounded-2xl p-6">
-                <h3 className="text-white font-semibold mb-3">What's your typical response time?</h3>
+                <h3 className="text-white font-semibold mb-3">What&apos;s your typical response time?</h3>
                 <p className="text-gray-300 text-sm">
                   I typically respond to all inquiries within 24 hours. For urgent matters, 
                   feel free to call me directly during business hours.
@@ -372,7 +372,7 @@ const ContactPage = () => {
                 <h3 className="text-white font-semibold mb-3">Do you work with international clients?</h3>
                 <p className="text-gray-300 text-sm">
                   Yes! I work with clients globally and am comfortable with different time zones. 
-                  I'm flexible with meeting times to accommodate your schedule.
+                  I&apos;m flexible with meeting times to accommodate your schedule.
                 </p>
               </div>
               
@@ -380,7 +380,7 @@ const ContactPage = () => {
                 <h3 className="text-white font-semibold mb-3">What information should I include in my message?</h3>
                 <p className="text-gray-300 text-sm">
                   Please include project details, timeline, budget range, and any specific 
-                  requirements or technologies you'd like to use. The more details, the better!
+                  requirements or technologies you&apos;d like to use. The more details, the better!
                 </p>
               </div>
               

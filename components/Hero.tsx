@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Download, ChevronDown } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 
 const Hero = () => {
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; size: number; delay: number }>>([])
@@ -58,7 +58,7 @@ const Hero = () => {
               top: `${particle.y}%`,
               width: `${particle.size}px`,
               height: `${particle.size}px`,
-            }}
+            } as React.CSSProperties}
             animate={{
               y: [-20, 20, -20],
               opacity: [0.2, 0.5, 0.2],
@@ -111,7 +111,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Master's student in Computer Science building end-to-end web and cloud solutions 
+            Master&apos;s student in Computer Science building end-to-end web and cloud solutions 
             with a focus on scalability and automation.
           </motion.p>
 
@@ -175,12 +175,12 @@ const TypewriterText = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   
-  const texts = [
+  const texts = useMemo(() => [
     'Building scalable and secure systems with React, Node.js & AWS.',
     'Full-Stack & Cloud Developer',
-    'Master\'s in Computer Science',
+    'Master&apos;s in Computer Science',
     'AWS Certified Developer'
-  ]
+  ], [])
 
   useEffect(() => {
     const timeout = setTimeout(() => {

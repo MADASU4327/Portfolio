@@ -124,7 +124,7 @@ const Contact = () => {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full mx-auto mb-6" />
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Let's discuss opportunities, collaborations, or just have a chat about technology and innovation
+              Let&apos;s discuss opportunities, collaborations, or just have a chat about technology and innovation
             </p>
           </motion.div>
 
@@ -132,11 +132,11 @@ const Contact = () => {
             {/* Contact Information */}
             <motion.div variants={itemVariants} className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Let's Connect</h3>
+                <h3 className="text-2xl font-bold text-white mb-6">Let&apos;s Connect</h3>
                 <p className="text-gray-300 mb-8 leading-relaxed">
-                  I'm always open to discussing new opportunities, interesting projects, 
+                  I&apos;m always open to discussing new opportunities, interesting projects, 
                   or potential collaborations. Whether you have a question about my work 
-                  or want to explore how we can work together, I'd love to hear from you.
+                  or want to explore how we can work together, I&apos;d love to hear from you.
                 </p>
               </div>
 
@@ -281,7 +281,7 @@ const Contact = () => {
                       className="flex items-center space-x-2 text-green-400 bg-green-400/10 p-3 rounded-xl border border-green-400/30"
                     >
                       <CheckCircle size={20} />
-                      <span>Message sent successfully! I'll get back to you soon.</span>
+                      <span>Message sent successfully! I&apos;ll get back to you soon.</span>
                     </motion.div>
                   )}
 
