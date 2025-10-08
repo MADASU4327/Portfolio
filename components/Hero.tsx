@@ -85,7 +85,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="gradient-text">Sai Sandeep Madasu</span>{' '}
             <motion.span
               animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
